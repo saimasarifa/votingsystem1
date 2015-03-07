@@ -9,12 +9,11 @@
         </div>
 
         <div class="form-group">
-            {!! Form::label('symbol', 'Symbol for vote:') !!}
+            {!! Form::label('symbol', 'Symbol:') !!}
             {!! Form::text('symbol') !!}
         </div>
-{{--
 
-        <div class="form-group">
+    {{--    <div class="form-group">
             {!! Form::label('created_by', 'created by:') !!}
             {!! Form::text('created_by') !!}
         </div>
@@ -23,12 +22,11 @@
             {!! Form::label('modified_by', 'modified_by:') !!}
             {!! Form::text('modified_by') !!}
         </div>
-
 --}}
 
 
-        <div class="form-group">
-            {!! Form::button('Save') !!}
+        <div class="form-group" >
+            {!! Form::submit($submit_text) !!}
         </div>
 
     </fieldset>
