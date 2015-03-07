@@ -31,6 +31,7 @@ class TasksController extends Controller {
 	public function create(Catagory $catagory)
 	{
 		return view('tasks.create', compact('catagory'));
+
 	}
 
 	/**
